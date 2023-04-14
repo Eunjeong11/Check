@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".checkA">
+
+    <TextView
+        android:id="@+id/check_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" 얼굴이 자주 붉어지고 화끈거린다."
+        android:padding="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    
+    <RadioGroup
+        android:id="@+id/rg_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp">
+
+        <RadioButton
+            android:id="@+id/rbA1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="없음 (0)"
+            android:textSize="25sp"
+            android:padding="15dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약간 (4)"
+            android:textSize="25sp"
+            android:padding="15dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbA3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보통 (8)"
+            android:textSize="25sp"
+            android:padding="15dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbA4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="심함 (12)"
+            android:textSize="25sp"
+            android:padding="15dp"
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="다음"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:backgroundTint="@color/teal_700"/>
+
+
+
+</LinearLayout>
